@@ -85,7 +85,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
              * @return bool
              */
             function wp_rest_is_cart( $object, $field_name, $request ) {
-                return wc_get_page_id( 'cart' ) === $object['id'] || defined( 'WOOCOMMERCE_CART' );
+                return wc_get_page_id( 'cart' ) === $object['id'];
             }
 
             add_action( 'init', 'wp_rest_is_cart_init' );

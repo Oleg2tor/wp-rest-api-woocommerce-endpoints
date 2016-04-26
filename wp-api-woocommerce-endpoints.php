@@ -3,7 +3,7 @@
 Plugin Name: WP REST API (V2) Woocommerce endpoints
 Description: WP REST API (V2) Modifications for Woocommerce endpoints.
 Author: Oleg Kostin
-Version: 1.0
+Version: 1.1
 Author URI: http://pmr.io
 */
 
